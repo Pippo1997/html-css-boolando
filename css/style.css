@@ -75,6 +75,13 @@ header{
     bottom: 100px;
 }
 
+.greenlast{
+    background-color: green;
+    width: 80px;
+    position: absolute;
+    bottom: 100px;
+}
+
 .heart{
     background-color: white;
     color: black;
@@ -104,3 +111,6 @@ span{
 .col-main:hover .overlay{
     opacity: 1;
 }
+
+/* footer */
+
