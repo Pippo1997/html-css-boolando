@@ -33,3 +33,54 @@ header{
 }
 
 /* main */
+
+.row-main{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.col-main{
+    width: calc(100% / 3);
+}
+
+.content{
+    margin: 10px;
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+}
+
+.label{
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    width: 40px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.green{
+    background-color: green;
+    width: 80px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.heart{
+    background-color: white;
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 30px;
+    padding: 10px;
+}
