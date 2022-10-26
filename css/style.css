@@ -114,3 +114,23 @@ span{
 
 /* footer */
 
+footer{
+    background-color: rgba(26,26,26,255);
+}
+
+.row-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    line-height: 1.5;
+}
+
+.social{
+    display: flex;
+    width: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
