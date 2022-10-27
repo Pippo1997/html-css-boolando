@@ -119,6 +119,7 @@ span{
     height: 100%;
     position: absolute;
     top: 0;
+    transition: all 1s ease-in;
 }
 
 .col-main:hover .overlay{
@@ -150,13 +151,6 @@ footer{
 
 /* bonus */
 
-.overlayheart{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
+.label:hover .overlayheart{
+    color: red;
 }
-
-.heart:hover .overlayheart{
-    opacity: 1;
-    background-color: red;}
