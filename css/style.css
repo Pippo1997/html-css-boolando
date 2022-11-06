@@ -151,6 +151,6 @@ footer{
 
 /* bonus */
 
-.label:hover .overlayheart{
+.label:hover {
     color: red;
 }
